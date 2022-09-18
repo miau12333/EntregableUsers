@@ -1,0 +1,111 @@
+*{
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  color: #213c41;
+}
+
+span{
+  font-size: 50px;
+}
+
+b{
+  color: #f6f8f6ae;
+
+}
+
+p{
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 12px;
+}
+
+body{
+  background: url(./cssBackGround/BACKGROUND4.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.App {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+.container{
+  width: 400px;
+  height: fit-content;
+  margin: auto;
+  padding: 30px;
+  background: #FFFF;
+  box-shadow: 1px 7px 25px rgba(0, 0, 0, 0.6);
+  position: relative;
+  border-radius: 12px;
+}
+
+form {
+  text-align: left;
+  margin: 0 auto;
+}
+
+.input-ctn {
+  margin-bottom: 15px;
+}
+
+.input-ctn label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-ctn input {
+  width: 100%;
+  padding: 7px;
+  font-size: 16px;
+}
+
+button.btn-create {
+  padding: 10px;
+  background: #77b1b5;
+  text-align: center;
+  margin-left: 150px;
+}
+
+.list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+.size{
+  width: 250px;
+  height: fit-content;
+  list-style: none;
+  color: var(--white);
+  border-radius: 12px;
+  padding: 15px;
+  background: #dca7e0;
+  text-align: start;
+  margin: 0%;
+}
+
+
+.btnDelete{
+  margin: 10px;
+  background-color: rgb(219, 94, 94);
+  color: azure;
+}
+
+.btnEdit{
+  margin: 10px;
+  background-color: rgb(186, 240, 104);
+  color: azure;
+}
